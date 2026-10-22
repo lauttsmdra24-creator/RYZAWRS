@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>RYZAWRS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== COVER ===== -->
+<div id="p1" class="page active">
+  <div class="checker"></div>
+  <div class="panel">
+    <div class="gloss"></div>
+    <div id="floaters"></div>
+    
+    <div class="center">
+      <div class="title" id="title"></div>
+      <button class="btn pulse" id="play">LET'S PLAY!</button>
+    </div>
+    <div class="credit">by: eternityll0ve</div>
+  </div>
+</div>
+
+<!-- ===== GAME ===== -->
+<div id="p2" class="page scene">
+  <div class="hud" id="hud"></div>
+  <div class="vase"><img alt=""></div>
+  <div class="table"></div>
+  <div class="shelf" id="shelf"></div>
+  <div class="ryz" id="r2">
+    <div class="sh"></div>
+    <div class="inner" id="r2in"><img class="spr" id="r2spr" alt="" draggable="false"></div>
+    <div class="bub" id="bub"><img id="bubImg" alt=""></div>
+  </div>
+</div>
+
+<!-- ===== BURPPPP ===== -->
+<div id="p3" class="page scene">
+  <div class="banner title" id="banner"></div>
+  <div class="vase"><img alt=""></div>
+  <div class="table"></div>
+  <div class="ryz" id="r3">
+    <div class="sh"></div>
+    <div class="inner" id="r3in"><img class="spr" id="r3spr" alt="" draggable="false"></div>
+    <div class="burp" id="burp">BURP!</div>
+  </div>
+  <button class="btn again" id="again">PLAY AGAIN</button>
+</div>
+
+<!-- ===== SOUND ===== -->
+<button id="mute" aria-label="sound">&#9834;</button>
+
+<div id="curtain"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
